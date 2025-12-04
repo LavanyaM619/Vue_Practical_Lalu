@@ -1,11 +1,17 @@
-<script setup></script>
+<script setup>
+import ChildD1 from '@/pages/D1.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <ChildD1 />
+
+  <div class="dark-red-line"></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.dark-red-line {
+  height: 2px;           
+  background-color: darkred;
+  margin-top: 10px;     
+}
+</style>
